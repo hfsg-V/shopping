@@ -1,0 +1,381 @@
+@charset "UTF-8";
+/**************************************header开始*******************************/
+header{
+    width:100%;
+    div{
+        width:1170px;
+        margin:0 auto;
+        h2{
+            padding:25px 0;
+            height:70px;
+            img{
+                display:block;
+                margin:0 auto;
+            }
+        }
+        nav{
+            width:471px;
+            margin:0 auto;
+            margin-bottom:20px;
+            ul li{
+                width:50px;
+                float:left;
+                margin-right:47px;
+                height:30px;
+                line-height:30px;
+                text-align:center;
+                a{
+                  color:#333333;
+                  font-family:"microsoft yahei";
+                  font-size:14px;
+                }
+                &:hover{
+                  background:#000000;
+                  a{
+                      color:#FFFFFF;
+                  }
+              }
+              &:nth-of-type(2){
+                  background:#000000;
+                  a{
+                      color:#FFFFFF;
+                  }
+              }
+              &:last-of-type{
+                  width:77px;
+                  margin-right:0;
+              }
+            }
+        }
+    }
+}
+/**************************************header结束*******************************/
+/**************************************main开始*******************************/
+.main_con{
+    width:1170px;
+    margin:0 auto;
+    /*main新闻滚动开始*/
+    aside{
+        width:254px;
+        float:left;
+        padding-bottom:22px;
+        h3{
+            height:63px;
+            line-height:63px;
+            padding-top:25px;
+            font-size:34px;
+            color:#333333;
+            font-weight:600;
+            font-family:arial;
+        }
+        .module_up_down{
+            width:22px; 
+            height:11px; 
+            position:absolute;
+            top:15px; 
+            right:26px; 
+            cursor:pointer;
+        }
+        .global_module{
+            width:254px; 
+            position:relative;
+            h4{
+               height:51px; 
+               line-height:51px; 
+               color:#333333;
+               font-family:simhei; 
+               font-size:24px;
+               &:nth-of-type(2){
+                   position:relative;
+                   span{
+                        display:block;
+                        width:22px; 
+                        height:11px; 
+                        position:absolute;
+                        top:21px; 
+                        right:26px; 
+                        cursor:pointer;
+                        img{
+                            display:block;
+                        }
+                    }
+               }
+            }
+//          .module_up_down:nth-of-type(2){
+//              width:22px; 
+//              height:11px; 
+//              position:absolute;
+//              top:198px; 
+//              right:26px; 
+//              cursor:pointer;
+//          }
+            .scrollNews{
+                width:254px; 
+                height:128px; 
+                line-height:31px; 
+                overflow:hidden; 
+                background:#fff;
+                ul{
+                    li{
+                        height:31px; 
+                        line-height:31px;
+                        a{
+                            color:#666666;
+                            font-size:20px;
+                            font-family:simhei;
+                             &:hover{
+                                color:red;
+                            }
+                        }
+                    }
+                }
+            }
+            h5{
+                height:31px;
+                line-height:31px;
+                margin-bottom:8px;
+                font-size:20px;
+                padding-left:24px;
+                color:#666666;
+                font-family:simhei;
+                font-weight:normal;
+            }
+            h5+ul{
+                margin-bottom:8px;
+            }
+            h5+ul li{
+                padding-left:44px;
+                height:25px;
+                line-height:25px;
+            }
+            h5+ul li a{
+                font-size:16px;
+                color:#999999;
+                font-family:"microsoft yahei";
+                &:hover{
+                    color:red;
+                }
+            }
+        }
+    }
+    /*main新闻滚动结束*/
+    .right_show{
+        width:916px;
+        float:left;
+        position:relative;
+        padding-bottom:151px;
+        .title{
+          width:599px;
+          margin:70px auto;
+          margin-bottom:32px;
+          position:relative;
+          text-align:center;
+          text-transform:uppercase;
+          white-space:nowrap;
+          font-size:20px;
+          color:#333333;
+          font-weight:normal;
+          &:before{
+            content:'';
+            display:block;
+            border-top:2px solid black;
+          }
+          &:after{
+            content:attr(data-text);
+            position:absolute;
+            top:-20px;
+            left:50%;
+            font-size:36px;
+            font-weight:normal;
+            padding:0 79px;
+            background:#FFFFFF;
+            -webkit-transform: translate(-50%,-50%);
+            -moz-transform: translate(-50%,-50%);
+            -ms-transform: translate(-50%,-50%);
+            -o-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+          }
+        }
+        div:nth-of-type(1){
+            width:887px;
+            margin:0 auto;
+        }
+        div:nth-of-type(2){
+            padding:8px;
+            border:2px solid #000000;
+            position:absolute;
+            top:406px;
+            left:253px;
+            div{
+               background:#f3f3f3;
+               width:400px;
+               height:155px; 
+               text-align:center;
+               padding-top:25px;
+               p:nth-of-type(1){
+                   height:32px;
+                   line-height:32px;
+                   font-size:24px;
+                   color:#333333;
+                   font-family:"宋体";
+                   font-weight:bolder;
+               }
+               p:nth-of-type(2){
+                   line-height:35px;
+                   height:35px;
+                   font-size:24px;
+                   color:#333333;
+                   font-family:"microsoft sans serif";
+                   span{
+                       font-size:36px;
+                       font-weight:bold;
+                   }
+               }
+               a{
+                   display:block;
+                   &:nth-of-type(1){
+                       width:124px;
+                       height:30px;
+                       line-height:30px;
+                       color:#fefefe;
+                       background:#000000;
+                       margin:0 auto;
+                       margin-top:8px;
+                       text-align:center;
+                       font-size:24px;
+                       font-family:"宋体";
+                       font-weight:normal;
+                   }
+                   &:nth-of-type(2){
+                       height:32px;
+                       line-height:32px;
+                       font-family:simhei;
+                       font-size:20px;
+                       color:#4c4c4c;
+                       &:hover{
+                           text-decoration:underline;
+                       }
+                   }
+                   &:hover{
+                       color:red;
+                   }
+               }
+            }
+        }
+    }
+}
+.mainBot_con{
+    width:1170px;
+    margin:0 auto;
+    padding-bottom:28px;
+    ul>li{
+        width:370px;
+        float:left;
+        margin-right:30px;
+        text-align:center;
+        &:nth-of-type(3){
+            margin-right:0;
+        }
+        p{
+            line-height:27px;
+            color:#000000;
+            font-size:18px;
+            font-family:"microsoft yahei";
+            font-weight:600;
+            span{
+                display:block;
+                font-size:16px;
+            }
+        }
+    }
+}
+/********************************main 结束*****************************/
+/********************************footer 开始*****************************/
+footer{
+    width:100%;
+    background:#000000;
+    padding-bottom:12px;
+    div{
+        width:1170px;
+        margin:0 auto;
+        h3{
+            height:76px;
+            line-height:76px;
+            border-bottom:1px solid #333232;
+            a{
+                font-size:14px;
+                color:#bfbfbf;
+                text-decoration:underline;
+                font-family:"宋体";
+            }
+        }
+        ul li{
+            width:253px;
+            float:left;
+            padding-top:30px;
+            &:nth-of-type(4){
+                width:198px;
+            }
+            &:nth-of-type(5){
+                width:207px;
+                text-align:right;
+                 p{
+                    color:#bfbfbf;
+                    font-size:14px;
+                    line-height:18px;
+                    height:18px;
+                    font-family:"microsoft yahei";
+                    font-weight:thin;
+                }
+                input{
+                    margin-top:18px;
+                    width:194px;
+                    height:27px;
+                    line-height:27px;
+                    background:transparent;
+                    border:1px solid #262626;
+                    padding-left:10px;
+                    color:#262626;
+                    outline:none;
+                }
+            }
+            a{
+                display:block;
+                color:#d4d4d4;
+                font-size:14px;
+                line-height:26px;
+                height:26px;
+                font-family:"microsoft yahei";
+                font-weight:thin;
+            }
+        }
+    }
+    footer{
+        small{
+            font-size:14px;
+            height:70px;
+            line-height:70px;
+            color:#bfbfbf;
+            font-family:"microsoft yahei";
+            &:first-of-type{
+                width:254px;
+                float:left;
+                margin-right:301px;
+            }
+            &:last-of-type{
+                float:right;
+                a{
+                   font-size:14px;
+                   color:#bfbfbf;
+                   font-family:"microsoft yahei";
+                   &:hover{
+                       color:red;
+                   }
+                }
+            }
+        }
+    }
+}
+/********************************footer 结束*****************************/
+
+

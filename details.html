@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet/less" href="less/style.less"/>
+		<link rel="stylesheet/less" href="less/details.less"/>
+		<link rel="stylesheet" href="css/base.css" />
+		
+		<script src="js/jquery.js" type="text/javascript"></script>
+		<script src="js/supslide.js"></script>
+		<script src="js/jquery.cookie.js" type="text/javascript"></script>
+		<script src="js/jquery.jqzoom.js" type="text/javascript"></script>
+		<script src="js/use_jqzoom.js" type="text/javascript"></script>
+		<script src="js/jquery.thickbox.js" type="text/javascript"></script>
+		<script src="js/jquery.livequery.js" type="text/javascript"></script>
+		<script src="js/switchImg.js" type="text/javascript"></script>
+		<script src="js/tab.js" type="text/javascript"></script>
+		<script src="js/switchColor.js" type="text/javascript"></script>
+		<script src="js/sizeAndprice.js" type="text/javascript"></script>
+		<script src="js/star.js" type="text/javascript"></script>
+		<script src="js/finish.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<!---------------------------header start------------------------------>
+		<header>
+			<div>
+				<h2>
+					<a href="#">
+						<img src="images/logo.jpg" alt="" />
+					</a>
+				</h2>
+				<nav>
+					<ul class="clearfix">
+						<li><a href="#">首页</a></li>
+						<li><a href="index.html">衬衫</a></li>
+						<li><a href="#">卫衣</a></li>
+						<li><a href="#">裤子</a></li>
+						<li><a href="#">联系我们</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<!------------------------------header end---------------------------------->
+		
+		<!-------------------------------main start--------------------------->
+		<section class="main">
+			<!--主体内容开始-->
+			<div id="content" class="global_module">
+				<div class="pro_detail clearfix">
+					<div class="pro_detail_left">
+						<ul class="imgList">
+							<li><img src="images/pro_img/blue_one.jpg" alt="" /></li>
+							<li><img src="images/pro_img/blue_three.jpg" alt="" /></li>
+							<li><img src="images/pro_img/blue_two.jpg" alt="" /></li>
+						</ul>
+						<div class="jqzoom">
+			            	<img src="images/pro_img/blue_one_small.jpg" alt="" name="bigImg" class="fs" id="bigImg"  jqimg="images/pro_img/blue_one_big.jpg"/>
+			            </div>
+					</div>
+					<div class="pro_detail_right">
+						<h4>免烫高支棉条纹衬衣</h4>
+						<p>全新精品高支棉衬衫再次提升品质，精选100%新疆长绒棉织造而成，平整度好，短绒少； 80-100高支双股经纬交织，带来无与伦比的舒适享受；而且面料反光效果好，具有漂亮...</p>
+						<p>￥<strong>129.00  <del>￥300.00</del></strong></p>
+						<p><strong>编号：33313993</strong></p>
+						<div class="color_change">
+							<p>颜色：<strong>蓝白</strong></p>
+							<ul>
+								<li><img src="images/pro_img/blue.jpg" alt="蓝白" /></li>
+								<li><img src="images/pro_img/yellow.jpg" alt="黄白" /></li>
+								<li><img src="images/pro_img/green.jpg" alt="粉绿" /></li>
+							</ul>
+						</div>
+						<div class="pro_size">
+							<p>选择尺码</p>
+							<ul>
+								<li><span>S(170/92A)</span></li>
+								<li><span>L(175/100A)</span></li>
+								<li><span>XL(180/110A)</span></li>
+							</ul>
+						</div>
+						<div class="pro_num clearfix">
+							<p>数量：</p>
+							<p class="clearfix"><span id="del">-</span><strong id="numVal">1</strong><span id="add">+</span></p>
+						</div>
+						<div class="pro_price">
+							总计：<span>129</span>元
+						</div>
+						<div class="pro_rating">
+							<p>宝贝评论：</p>
+							<div>
+								<ul class="rating nostar">
+									<li class="one"><a href="#" title="1分">1</a></li>
+									<li class="two"><a href="#" title="2分">2</a></li>
+									<li class="three"><a href="#" title="3分">3</a></li>
+									<li class="four"><a href="#" title="4分">4</a></li>
+									<li class="five"><a href="#" title="5分">5</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="tab">
+					<div class="tab_menu">
+						<ul>
+							<li class="selected">产品属性</li>
+							<li>产品尺码表</li>
+							<li>产品介绍</li>
+						</ul>
+					</div>
+					<div class="tab_box">
+						<div>沿用风靡百年的经典全棉牛津纺面料，通过领先的液氨整理技术，使面料的抗皱性能更上一层。延续简约、舒适、健康设计理念，特推出免烫、易打理的精细免烫牛津纺长袖衬衫系列。 
+						</div>
+						<div class="hide">
+						来自新疆无污染的生态棉花，采用紧密纺精梳棉纱，单经双纬的织造组织，造就了颗粒饱满、朴实无华、温润细腻的经典牛津纺，易洗快干、手感丰软、吸湿性好。设计师遵循布料完美肌理，立体剪裁，以直筒明门襟的经典造型、配合圆袋、曲摆的现代人性化裁减，相得益彰，浑然天成。色彩明快的纯色衬衫简洁、自然、为您营造出利落、爽朗的形象，透出热情、优雅的个性；精选白、蓝、淡粉、宽条纹、英国格等10余种明亮、经典花型，色彩缤纷呈现，以适合本季着装，更显自然、舒适境界。
+	                    </div>
+						<div class="hide">
+						世界权威德国科德宝的衬和英国高士缝纫线使成衣领型自然舒展、永不变形，缝线部位平服工整、牢固耐磨；人性化的4片式后背打褶结构设计提供更舒适的活动空间；领尖扣的领型设计戴或不戴领带风格炯同、瞬间呈现；醇正天然设计，只为彰显自然荣耀。
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--主体内容结束-->
+			<div class="wrap_con">
+				<span>
+					<a href="" class="prev" onclick="return false"> < </a>
+					<a href="" class="next" onclick="return false"> > </a>
+				</span>
+				<div class="mainBot_con">
+					<div class="slide">
+						<ul class="clearfix">
+							<li>
+								<a href="#">
+									<img src="images/kz1.jpg" alt="" />
+									<p>
+										修身易熨衬衫
+										<span>￥149.00</span>
+									</p>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="images/kz2.jpg" alt="" />
+									<p>
+										修身易熨衬衫
+										<span>￥249.00</span>
+									</p>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="images/kz3.jpg" alt="" />
+									<p>
+										修身易熨衬衫
+										<span>￥169.00</span>
+									</p>
+								</a>
+							</li>
+						</ul>
+						<ul class="clearfix">
+							<li>
+								<a href="#">
+									<img src="images/img1.jpg" alt="" />
+									<p>
+										修身易熨衬衫
+										<span>￥149.00</span>
+									</p>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="images/img2.jpg" alt="" />
+									<p>
+										修身易熨衬衫
+										<span>￥249.00</span>
+									</p>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="images/img3.jpg" alt="" />
+									<p>
+										修身易熨衬衫
+										<span>￥169.00</span>
+									</p>
+								</a>
+							</li>
+						</ul>
+						<ul class="clearfix">
+							<li>
+								<a href="#">
+									<img src="images/kz1.jpg" alt="" />
+									<p>
+										修身易熨衬衫
+										<span>￥149.00</span>
+									</p>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="images/kz2.jpg" alt="" />
+									<p>
+										修身易熨衬衫
+										<span>￥249.00</span>
+									</p>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="images/kz3.jpg" alt="" />
+									<p>
+										修身易熨衬衫
+										<span>￥169.00</span>
+									</p>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-------------------------------main end--------------------------->
+		<!-------------------------------footer start--------------------------->
+		<footer>
+			<div>
+				 <h3><a href="#">JANESHOPPING更多新款，点击查看</a></h3>
+				 <ul class="clearfix">
+				 	<li>
+				 		<a href="#">购物指南</a>
+				 		<a href="#">网上购买</a>
+				 		<a href="#">订单追踪</a>
+				 		<a href="#">如何成为VIP</a>
+				 	</li>
+				 	<li>
+				 		<a href="#">探索</a>
+				 		<a href="#">牛仔裤休闲系列</a>
+				 		<a href="#">内衣系列</a>
+				 		<a href="#">配件系列</a>
+				 		<a href="#">休闲运动系列</a>
+				 		<a href="#">铂金系列</a>
+				 	</li>
+				 	<li>
+				 		<a href="#">关于我们</a>
+				 		<a href="#">关于janeshoping</a>
+				 		<a href="#">门店地址</a>
+				 		<a href="#">网上购物</a>
+				 	</li>
+				 	<li>
+				 		<a href="#">联系我们</a>
+				 		<a href="#">在线客服</a>
+				 		<a href="#">向我们发送emall</a>
+				 	</li>
+				 	<li>
+				 		<p>输入您的电子邮箱</p>
+				 		<p>获取juneshopping最新内容</p>
+				 		<input type="text" value="请输入emall地址" onfocus="this.value=''"/>
+				 	</li>
+				 </ul>
+				 <footer>
+				 	<small>彭卫绮商业（上海）有限公司 泸ICP备51830号</small>
+				 	<small>泸安公安备031924801号</small>
+				 	<small><a href="#">隐私政策</a>  <a href="#">条款声明</a></small>
+				 </footer>
+			</div>
+		</footer>
+		<!-------------------------------footer end--------------------------->
+	</body>
+	<script src="js/less.js"></script>
+</html>
